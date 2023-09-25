@@ -1,0 +1,15 @@
+D:\projekty programowanie\C#\Fi-kalkulator\bin\Debug\Fi-kalkulator.exe.config
+D:\projekty programowanie\C#\Fi-kalkulator\bin\Debug\Fi-kalkulator.exe
+D:\projekty programowanie\C#\Fi-kalkulator\bin\Debug\Fi-kalkulator.pdb
+D:\projekty programowanie\C#\Fi-kalkulator\obj\Debug\Fi-kalkulator.csproj.AssemblyReference.cache
+D:\projekty programowanie\C#\Fi-kalkulator\obj\Debug\Fi_kalkulator.Properties.Resources.resources
+D:\projekty programowanie\C#\Fi-kalkulator\obj\Debug\Fi-kalkulator.csproj.GenerateResource.cache
+D:\projekty programowanie\C#\Fi-kalkulator\obj\Debug\Fi-kalkulator.csproj.CoreCompileInputs.cache
+D:\projekty programowanie\C#\Fi-kalkulator\obj\Debug\Fi-kalkulator.exe
+D:\projekty programowanie\C#\Fi-kalkulator\obj\Debug\Fi-kalkulator.pdb
+D:\projekty programowanie\C#\Fi-kalkulator\obj\Debug\Fi_kalkulator.Form1.resources
+D:\projekty programowanie\C#\Fi-kalkulator\bin\Debug\Fi-kalkulator.exe.manifest
+D:\projekty programowanie\C#\Fi-kalkulator\bin\Debug\Fi-kalkulator.application
+D:\projekty programowanie\C#\Fi-kalkulator\obj\Debug\Fi-kalkulator.TrustInfo.xml
+D:\projekty programowanie\C#\Fi-kalkulator\obj\Debug\Fi-kalkulator.exe.manifest
+D:\projekty programowanie\C#\Fi-kalkulator\obj\Debug\Fi-kalkulator.application

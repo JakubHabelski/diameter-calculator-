@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Fi-kalkulator.exe" version="1.0.0.0" publicKeyToken="b0ea590bb768e8fe" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Fi-kalkulator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Fi-kalkulator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Opcje manifestu Kontroli konta użytkownika
+             Jeśli chcesz zmienić poziom Kontroli konta użytkownika systemu Windows, zastąp 
+             węzeł requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Określenie elementu requestedExecutionLevel spowoduje wyłączenie wirtualizacji plików i rejestru. 
+            Usuń ten element, jeśli aplikacja wymaga wirtualizacji w celu zachowania
+            zgodności z poprzednimi wersjami.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fi-kalkulator.exe" size="12240">
+      <assemblyIdentity name="Fi-kalkulator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Aaqa/0/wHpL3vHyij2o0ysCN31qIpSp/gky8MI9U05I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Fi-kalkulator.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Lista wersji systemu Windows, na których ta aplikacja została przetestowana
+           i dla których została zaprojektowana. Odkomentuj odpowiednie elementy, a system Windows
+           automatycznie wybierze najbardziej zgodne środowisko. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=KomputrHabla\Habel" issuerKeyHash="2d00afab12c8e2976a41f64103a4586c6602f0de" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>N9oNhxLkFRZGgCuncqe3AWpXkfwG1mvtb/ZRzZBCKJ0=</DigestValue></Reference></SignedInfo><SignatureValue>PMVjGDSh2fwE1r92Lbo+Ybmbe9edTm1BRTJbdzY06sbhrMgNPH6svx8/8CybUBjJMc8bYFCUF8LcTSV0GTZCYd1sX95NcZoDlScJYcYgqI9X15+xLQvbv5L5Kkm1+xT0ePd33OiCbG1NkGCidQHxYM6WLam7BVmssE0Z0r2Rk+s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rqJTjp/jv/G8x068403XYeT0qZvg8uJJvkobhaH0RYwufWiqdDXhq6cIrqd6wAEql2KTDeu/Okd0Alh2H3n3JnIt0I8ua2iaqcot3EbTC3Rw+jikHJK/lQIMT3Ti8bw8pv0SrCtkyM6Huq40wOl3Q8gj2wGLQKrMW03LS+/+ktU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9d284290cd51f66fed6bd606fc91576a01b7a772a72b80461615e412870dda37" Description="" Url=""><as:assemblyIdentity name="Fi-kalkulator.exe" version="1.0.0.0" publicKeyToken="b0ea590bb768e8fe" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=KomputrHabla\Habel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+C0uIfpFnHVHB8rk39U2w7KIUZMiZW+IsoEodzjWXEw=</DigestValue></Reference></SignedInfo><SignatureValue>kRtePjWom+YIgBrkwxy4brWPQn1pCySgMh+bGzHfh9RQNdLSI0SlmyIRtf/vVrFRP7etaeUjau2/2lSG8MIjqrefFuuZpsehyWn/59YSfKutSJRwL1548rRYVHo1ds4yqW9IlJe/uFm2ofvA3nXUGdl4TFhQtn91nsNKS/P+EIk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rqJTjp/jv/G8x068403XYeT0qZvg8uJJvkobhaH0RYwufWiqdDXhq6cIrqd6wAEql2KTDeu/Okd0Alh2H3n3JnIt0I8ua2iaqcot3EbTC3Rw+jikHJK/lQIMT3Ti8bw8pv0SrCtkyM6Huq40wOl3Q8gj2wGLQKrMW03LS+/+ktU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQH532Jm0YNLtOBtrVSLR49jANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQASwBvAG0AcAB1AHQAcgBIAGEAYgBsAGEAXABIAGEAYgBlAGwwHhcNMjMwOTI0MTkwMTAyWhcNMjQwOTI0MDEwMTAyWjAvMS0wKwYDVQQDHiQASwBvAG0AcAB1AHQAcgBIAGEAYgBsAGEAXABIAGEAYgBlAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK6iU46f47/xvMdOvONN12Hk9Kmb4PLiSb5KG4Wh9EWMLn1oqnQ14aunCK6nesABKpdikw3rvzpHdAJYdh959yZyLdCPLmtomqnKLdxG0wt0cPo4pBySv5UCDE904vG8PKb9EqwrZMjOh7quNMDpd0PII9sBi0CqzFtNy0vv/pLVAgMBAAEwDQYJKoZIhvcNAQELBQADgYEACCzbxrE+tsjQfGjzjG8/s8t54LXTPOjI4VtXQefW2sOm+OciQaTbSqyHtweSYyKt8cnnoKK5Q8fuzFFA8MSdjmjSS+q955H7H4KluAw/jiHNVNdJI4kKi7VSAbXwbeUrxwlkkKpo0gupq8UERmXgRkxvgU5Xu3IUZmCNNdaljgQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
